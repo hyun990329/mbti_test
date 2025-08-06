@@ -18,6 +18,7 @@ let currentNumber = 0;
 let mbti = '';    // mbti 결과를 담을 변수 선언
 
 // choice1El 과 choice2El 에 클릭 이벤트를 걸어 넣는다
+// 콜백함수 : 앞에서 정의한 조건이 만족될 때 실행되는 함수
 choice1El.addEventListener("click", function(){
   nextQustion(0);
 })
